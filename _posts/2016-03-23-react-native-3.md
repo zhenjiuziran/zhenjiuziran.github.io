@@ -28,3 +28,7 @@ var Icon = require('react-native-vector-icons/Ionicons');
   }}>...</Icon.TabBarItem>
 //替换，就可以使用react-native-vector-icons库中的3k+种icon了。
 {% endhighlight %}
+
+但是这个iconName和selectedIconName怎么确定呢？
+
+在Ionicons.js文件中可以看到可以使用的名称，但是每个icon长什么样，对于非母语英语国家的人只能靠猜了，然后靠试。
